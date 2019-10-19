@@ -7,7 +7,7 @@ This project is a simple rest api for managing inventories.The api provides the 
 and their categories stored in an inventory
 
 ## Testing the Application Online
-To view the end points of this application online and test them please visit [product-catalaog-api](https://product-catalog-api-springboot.herokuapp.com/swagger-ui.html)
+To view the end points of this application online and test them please visit [product-catalog-api](https://product-catalog-api-springboot.herokuapp.com/swagger-ui.html)
 ## Running the Application Locally
 
 ## Getting Started
