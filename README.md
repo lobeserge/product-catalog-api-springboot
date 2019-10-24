@@ -28,7 +28,7 @@ To run this app locally the following  softwares is/are required :
 From github click  the clone or download button with green color and copy the http link
 Go to you git bash on your computer and  enter the following command to clone to your desired location
 ```
-git clone https://github.com/lobeserge/product-catalog-api-springboot-final.git
+git clone https://github.com/lobeserge/product-catalog-api-springboot-deafault.git
 ```
 * ### Import your project to Eclipse IDE
 Start up your eclipse IDE, import the project cloned above as an existing maven project ``` internet connection is required the first time ```
@@ -47,5 +47,4 @@ Go Groups Ltd Buea
 
 ### Lincence
 This project is a work of lobe nyoh serge @allrightreserve ProductCatalogAPI V1.0
-
 
