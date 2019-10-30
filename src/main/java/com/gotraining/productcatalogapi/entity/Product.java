@@ -11,6 +11,8 @@ import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @Entity
 public class Product {
 	
@@ -39,7 +41,7 @@ public Product(int productid, String productname, long quantity, long price) {
 }
 
 
-
+@ApiModelProperty(hidden = true)
 public int getProductid() {
 	return productid;
 }
@@ -77,7 +79,7 @@ public void setPrice(long price) {
 @ManyToOne(fetch=FetchType.LAZY)
 private Category category;
 
-
+@ApiModelProperty(hidden = true)
 public Category getCategory() {
 	return new Category(getCategoryId(),getCategoryName());
 }
